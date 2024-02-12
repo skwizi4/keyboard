@@ -19,4 +19,8 @@ func GetFloat() (float64, error) {
 		return 0, err
 	}
 	return number, nil
+} 
+
+func Hello(){
+	fmt.PrintLn("Hello world")
 }
